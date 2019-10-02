@@ -1,5 +1,6 @@
 package testSet;
 
+import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
 import base.Config;
@@ -7,28 +8,19 @@ import driverFunctions.Functions;
 import locators.AmazonLoc;
 import testData.Values;
 
-public class AmazonHmPage extends Config {
+public class AmazonHmPage extends Functions {
 
-	Functions df = new Functions();
+	Functions dd = new Functions();
 	AmazonLoc al = new AmazonLoc();
 	Values vl = new Values();
-	
+
 	@Test
 	public void AzHomepage() {
 		String url=	driver.getCurrentUrl();
 		System.out.println(url);
 	}
 
-	//	@Test(priority=1)
-	//	public void Azsignup() {
-	//		clickonaccount(al.Account);
-	//		clickonsignin(al.signin);
-	//		createaccount(al.crtacc);
-	//	
-	//	}
 
-	
-		
 
 	@Test
 	public void tittle() {
@@ -37,7 +29,32 @@ public class AmazonHmPage extends Config {
 
 	}
 
-	
+	@Test
+	public void AzLogin() {
+		clickonaccount();
+		TpEmail();
+		// String aaa =  driver.findElement(By.xpath(al.Log_email)).getText();
+		// System.out.println(aaa);
+		clickonsignin();
+		TpPassword();
+		SignInSubmit();
+		VerifyLogin();
+	}
 
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 }

@@ -6,9 +6,8 @@
       <class name="testSet.AmazonHmPage">
         <methods>
           <include name="setup"/>
-          <include name="closebroswer"/>
-          <include name="tittle"/>
-          <include name="AzHomepage"/>
+          <include name="AzLogin"/>
+          <include name="close"/>
         </methods>
       </class> <!-- testSet.AmazonHmPage -->
     </classes>
