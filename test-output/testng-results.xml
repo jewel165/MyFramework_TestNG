@@ -2,44 +2,44 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="17467" started-at="2019-10-02T19:37:02 EDT" finished-at="2019-10-02T19:37:20 EDT">
+  <suite name="Default suite" duration-ms="21791" started-at="2019-10-02T20:49:09 EDT" finished-at="2019-10-02T20:49:31 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="17467" started-at="2019-10-02T19:37:02 EDT" finished-at="2019-10-02T19:37:20 EDT">
+    <test name="Default test" duration-ms="21791" started-at="2019-10-02T20:49:09 EDT" finished-at="2019-10-02T20:49:31 EDT">
       <class name="testSet.AmazonHmPage">
-        <test-method status="PASS" signature="setup()[pri:0, instance:testSet.AmazonHmPage@7a04fea7]" name="setup" is-config="true" duration-ms="4908" started-at="2019-10-02T19:37:03 EDT" finished-at="2019-10-02T19:37:07 EDT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testSet.AmazonHmPage@7a04fea7]" name="setup" is-config="true" duration-ms="5496" started-at="2019-10-02T20:49:09 EDT" finished-at="2019-10-02T20:49:15 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="AzHomepage()[pri:0, instance:testSet.AmazonHmPage@7a04fea7]" name="AzHomepage" duration-ms="159" started-at="2019-10-02T19:37:07 EDT" finished-at="2019-10-02T19:37:08 EDT">
+        <test-method status="PASS" signature="AzHomepage()[pri:0, instance:testSet.AmazonHmPage@7a04fea7]" name="AzHomepage" duration-ms="1105" started-at="2019-10-02T20:49:15 EDT" finished-at="2019-10-02T20:49:16 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AzHomepage -->
-        <test-method status="PASS" signature="close()[pri:0, instance:testSet.AmazonHmPage@7a04fea7]" name="close" is-config="true" duration-ms="192" started-at="2019-10-02T19:37:08 EDT" finished-at="2019-10-02T19:37:08 EDT">
+        <test-method status="PASS" signature="close()[pri:0, instance:testSet.AmazonHmPage@7a04fea7]" name="close" is-config="true" duration-ms="265" started-at="2019-10-02T20:49:16 EDT" finished-at="2019-10-02T20:49:16 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:testSet.AmazonHmPage@7a04fea7]" name="setup" is-config="true" duration-ms="2891" started-at="2019-10-02T19:37:08 EDT" finished-at="2019-10-02T19:37:11 EDT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testSet.AmazonHmPage@7a04fea7]" name="setup" is-config="true" duration-ms="4091" started-at="2019-10-02T20:49:16 EDT" finished-at="2019-10-02T20:49:20 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="AzLogin()[pri:0, instance:testSet.AmazonHmPage@7a04fea7]" name="AzLogin" duration-ms="4898" started-at="2019-10-02T19:37:11 EDT" finished-at="2019-10-02T19:37:16 EDT">
+        <test-method status="PASS" signature="AzLogin()[pri:0, instance:testSet.AmazonHmPage@7a04fea7]" name="AzLogin" duration-ms="5643" started-at="2019-10-02T20:49:20 EDT" finished-at="2019-10-02T20:49:26 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AzLogin -->
-        <test-method status="PASS" signature="close()[pri:0, instance:testSet.AmazonHmPage@7a04fea7]" name="close" is-config="true" duration-ms="313" started-at="2019-10-02T19:37:16 EDT" finished-at="2019-10-02T19:37:16 EDT">
+        <test-method status="PASS" signature="close()[pri:0, instance:testSet.AmazonHmPage@7a04fea7]" name="close" is-config="true" duration-ms="306" started-at="2019-10-02T20:49:26 EDT" finished-at="2019-10-02T20:49:26 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:testSet.AmazonHmPage@7a04fea7]" name="setup" is-config="true" duration-ms="3569" started-at="2019-10-02T19:37:16 EDT" finished-at="2019-10-02T19:37:19 EDT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testSet.AmazonHmPage@7a04fea7]" name="setup" is-config="true" duration-ms="3613" started-at="2019-10-02T20:49:26 EDT" finished-at="2019-10-02T20:49:30 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="tittle()[pri:0, instance:testSet.AmazonHmPage@7a04fea7]" name="tittle" duration-ms="220" started-at="2019-10-02T19:37:19 EDT" finished-at="2019-10-02T19:37:20 EDT">
+        <test-method status="PASS" signature="tittle()[pri:0, instance:testSet.AmazonHmPage@7a04fea7]" name="tittle" duration-ms="943" started-at="2019-10-02T20:49:30 EDT" finished-at="2019-10-02T20:49:31 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tittle -->
-        <test-method status="PASS" signature="close()[pri:0, instance:testSet.AmazonHmPage@7a04fea7]" name="close" is-config="true" duration-ms="217" started-at="2019-10-02T19:37:20 EDT" finished-at="2019-10-02T19:37:20 EDT">
+        <test-method status="PASS" signature="close()[pri:0, instance:testSet.AmazonHmPage@7a04fea7]" name="close" is-config="true" duration-ms="211" started-at="2019-10-02T20:49:31 EDT" finished-at="2019-10-02T20:49:31 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
