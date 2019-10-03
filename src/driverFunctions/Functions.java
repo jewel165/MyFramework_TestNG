@@ -46,7 +46,15 @@ public class Functions extends Config {
 	}
 	public void createaccount() {
 		//driver.findElement(By.xpath()).click();
-
+	
+	}
+	
+	public void clickonNav() {
+		driver.findElement(By.xpath(lc.NavMenu)).click();
+	}
+	
+	public void clcikonSignout() {
+		driver.findElement(By.xpath(lc.SnOutBtn));
 	}
 
 	public void clickonsearch() {

@@ -10,6 +10,8 @@ public class AmazonLoc {
 	public String signin = "//*[@id=\'signInSubmit\']";
 	public String crtacc= "//*[@id=\'createAccountSubmit\']";
 	public String AccHolder = "//*[@id=\"nav-link-accountList\"]/span[1]";
+	public String NavMenu = "//*[@id=\"nav-hamburger-menu\"]/i";
+	public String SnOutBtn = "//*[@id=\"hmenu-content\"]/ul[35]/li[46]/a/div";
 	
 	//Search Related
 	public String srcbar = "//*[@id=\'twotabsearchtextbox\']";
