@@ -19,6 +19,9 @@ public class AmazonLoc {
 	public String searchbutton ="/html/body/div[1]/header/div/div[1]/div[3]/div/form/div[2]/div/input";
 	public String srcressult ="/html/body/div[1]/div[1]/span[2]/h1/div/div[1]/div/div/span[3]";
 
+	//Homepage Related
+	public String Logo = "//*[@id=\"nav-logo\"]/a[1]/span[1]";
+	
 
 	
 }

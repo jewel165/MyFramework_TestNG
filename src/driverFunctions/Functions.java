@@ -94,7 +94,12 @@ public class Functions extends Config {
 	}
 
 
-
+	//HomepageRandom
+	public void logo01() {
+	boolean aa = 	driver.findElement(By.xpath(lc.Logo)).isDisplayed();
+	boolean ab = 	driver.findElement(By.xpath(lc.Logo)).isEnabled();
+	
+	}
 
 
 

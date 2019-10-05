@@ -6,7 +6,7 @@ import driverFunctions.Functions;
 import locators.AmazonLoc;
 import testData.Values;
 
-public class AmazonSignOut extends AmazonHmPage  {
+public class AmazonSignOut extends Functions  {
 	
 	Functions dd = new Functions();
 	AmazonLoc al = new AmazonLoc();
@@ -24,8 +24,10 @@ public class AmazonSignOut extends AmazonHmPage  {
 		VerifyLogin();
 	}
 	
-	@Test
+	@Test (dependsOnMethods="AzLogin")
 	public void SignOut() {
+		//clickonNav();
+		//clcikonSignout();
 		clickonNav();
 		clcikonSignout();
 	}
