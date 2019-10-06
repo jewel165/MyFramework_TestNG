@@ -8,11 +8,12 @@ import driverFunctions.Functions;
 import locators.AmazonLoc;
 import testData.Values;
 
-public class AmazonHmPage extends Functions {
+public class AmazonHmPage extends Config {
 
 	Functions dd = new Functions();
 	AmazonLoc al = new AmazonLoc();
 	Values vl = new Values();
+	
 
 	@Test
 	public void AzHomepage() {
@@ -35,6 +36,7 @@ public class AmazonHmPage extends Functions {
 		TpEmail();
 		// String aaa =  driver.findElement(By.xpath(al.Log_email)).getText();
 		// System.out.println(aaa);
+		//clickonsignin();
 		clickonsignin();
 		TpPassword();
 		SignInSubmit();

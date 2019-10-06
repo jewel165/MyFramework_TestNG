@@ -10,42 +10,29 @@ import org.testng.annotations.Test;
 
 import driverFunctions.Functions;
 
-public class Config  {
+public class Config extends Functions {
 
 	//public String driverpath ="‎⁨‎⁨‎⁨‎⁨‎⁨Macintosh HD⁩ ▸ ⁨Users⁩ ▸ ⁨jewel⁩ ▸ ⁨eclipse-workspace⁩⁩⁩⁩"; 
-	public WebDriver driver;
-	
+	//public WebDriver driver;
+
 
 	@BeforeMethod
 	public void setup() {
 		//System.setProperty("webdriver.gecko.driver","/Users/jewel/eclipse-workspace/geckodriver");
 		//driver = new FirefoxDriver();
-		
+
 		System.setProperty("webdriver.chrome.driver","/Users/jewel/Downloads/chromedriver");
 		driver = new ChromeDriver();
 		driver.get("http://wwww.amazon.com");
 		pageload();
 		maxscreen();
 		wttime();
+		DltCookies();
+
 	}	
 
 
-	private void wttime() {
-		// TODO Auto-generated method stub
 
-	}
-
-
-	private void maxscreen() {
-		// TODO Auto-generated method stub
-
-	}
-
-
-	private void pageload() {
-		// TODO Auto-generated method stub
-
-	}
 
 	@AfterMethod
 	public void close() {

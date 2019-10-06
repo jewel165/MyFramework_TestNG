@@ -10,10 +10,10 @@ import base.Config;
 import locators.AmazonLoc;
 import testData.Values;
 
-public class Functions extends Config {
+public class Functions  {
 
 
-
+	public WebDriver driver;
 
 	AmazonLoc lc= new AmazonLoc();
 	Values vl = new Values();
@@ -32,7 +32,10 @@ public class Functions extends Config {
 	public void wttime() {
 		driver.manage().timeouts().implicitlyWait(25, TimeUnit.SECONDS);
 	}
-
+	
+	public void DltCookies() {
+		driver.manage().deleteAllCookies();
+	}
 	//All Clicks
 	public void clickonaccount() {
 		driver.findElement(By.xpath(lc.Account)).click();
