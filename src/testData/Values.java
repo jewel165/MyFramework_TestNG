@@ -5,7 +5,7 @@ public class Values {
 	public String azTittle = "Amazon";
 	public String srcMusic = "Music";
 	public String SearchIph = "iPhone";
-	
+	public String iph = "iPhone X";	
 	
 	//Sin-in Related
 	public String eml = "juie165@yahoo.com";

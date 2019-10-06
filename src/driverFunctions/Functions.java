@@ -10,10 +10,10 @@ import base.Config;
 import locators.AmazonLoc;
 import testData.Values;
 
-public class Functions extends Config {
+public class Functions  {
 
 
-
+	public WebDriver driver;
 
 	AmazonLoc lc= new AmazonLoc();
 	Values vl = new Values();
