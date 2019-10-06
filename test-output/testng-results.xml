@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7370" started-at="2019-10-05T19:19:31 EDT" finished-at="2019-10-05T19:19:39 EDT">
+  <suite name="Default suite" duration-ms="4537" started-at="2019-10-05T22:10:02 EDT" finished-at="2019-10-05T22:10:06 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="7370" started-at="2019-10-05T19:19:31 EDT" finished-at="2019-10-05T19:19:39 EDT">
+    <test name="Default test" duration-ms="4537" started-at="2019-10-05T22:10:02 EDT" finished-at="2019-10-05T22:10:06 EDT">
       <class name="testSet.AmazonRandom">
-        <test-method status="PASS" signature="setup()[pri:0, instance:testSet.AmazonRandom@185d8b6]" name="setup" is-config="true" duration-ms="6330" started-at="2019-10-05T19:19:31 EDT" finished-at="2019-10-05T19:19:38 EDT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testSet.AmazonRandom@185d8b6]" name="setup" is-config="true" duration-ms="3959" started-at="2019-10-05T22:10:02 EDT" finished-at="2019-10-05T22:10:06 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="LogoTest()[pri:0, instance:testSet.AmazonRandom@185d8b6]" name="LogoTest" duration-ms="717" started-at="2019-10-05T19:19:38 EDT" finished-at="2019-10-05T19:19:38 EDT">
+        <test-method status="PASS" signature="LogoTest()[pri:0, instance:testSet.AmazonRandom@185d8b6]" name="LogoTest" duration-ms="326" started-at="2019-10-05T22:10:06 EDT" finished-at="2019-10-05T22:10:06 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LogoTest -->
-        <test-method status="PASS" signature="close()[pri:0, instance:testSet.AmazonRandom@185d8b6]" name="close" is-config="true" duration-ms="272" started-at="2019-10-05T19:19:38 EDT" finished-at="2019-10-05T19:19:39 EDT">
+        <test-method status="PASS" signature="close()[pri:0, instance:testSet.AmazonRandom@185d8b6]" name="close" is-config="true" duration-ms="208" started-at="2019-10-05T22:10:06 EDT" finished-at="2019-10-05T22:10:06 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->

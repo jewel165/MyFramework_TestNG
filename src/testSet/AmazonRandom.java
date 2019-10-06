@@ -10,7 +10,8 @@ public class AmazonRandom extends Functions {
 	
 	@Test
 	public void LogoTest() {
-	logo01();	
+	logo01();
+	//AmazonLoGo is active
 	}
 
 }
