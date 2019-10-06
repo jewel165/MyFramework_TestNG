@@ -14,23 +14,25 @@ public class Config extends Functions {
 
 	//public String driverpath ="‎⁨‎⁨‎⁨‎⁨‎⁨Macintosh HD⁩ ▸ ⁨Users⁩ ▸ ⁨jewel⁩ ▸ ⁨eclipse-workspace⁩⁩⁩⁩"; 
 	//public WebDriver driver;
-	
-	
+
+
 	@BeforeMethod
 	public void setup() {
 		//System.setProperty("webdriver.gecko.driver","/Users/jewel/eclipse-workspace/geckodriver");
 		//driver = new FirefoxDriver();
-		
+
 		System.setProperty("webdriver.chrome.driver","/Users/jewel/Downloads/chromedriver");
 		driver = new ChromeDriver();
 		driver.get("http://wwww.amazon.com");
 		pageload();
 		maxscreen();
 		wttime();
+		DltCookies();
+
 	}	
 
 
-	
+
 
 	@AfterMethod
 	public void close() {

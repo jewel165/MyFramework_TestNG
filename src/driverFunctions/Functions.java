@@ -32,7 +32,10 @@ public class Functions  {
 	public void wttime() {
 		driver.manage().timeouts().implicitlyWait(25, TimeUnit.SECONDS);
 	}
-
+	
+	public void DltCookies() {
+		driver.manage().deleteAllCookies();
+	}
 	//All Clicks
 	public void clickonaccount() {
 		driver.findElement(By.xpath(lc.Account)).click();
