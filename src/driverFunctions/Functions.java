@@ -70,7 +70,7 @@ public class Functions extends Config {
 		driver.findElement(By.xpath(lc.Log_email)).sendKeys(vl.eml);
 	}
 
-	public void TpPassword() {
+	public void TpPassword( ) {
 		driver.findElement(By.xpath(lc.Log_Pass)).sendKeys(vl.pass01);
 	}
 

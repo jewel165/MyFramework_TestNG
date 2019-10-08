@@ -14,7 +14,7 @@ public class AmazonHmPage extends Functions {
 	AmazonLoc al = new AmazonLoc();
 	Values vl = new Values();
 
-	@Test
+	@Test (groups = {"smoke","regression"})
 	public void AzHomepage() {
 		String url=	driver.getCurrentUrl();
 		System.out.println(url);
@@ -22,14 +22,14 @@ public class AmazonHmPage extends Functions {
 
 
 
-	@Test
+	@Test (groups = {"smoke"})
 	public void tittle() {
 		String acttittle = 	driver.getTitle();
 		System.out.println(acttittle);
 
 	}
 
-	@Test
+	@Test(groups = {"smoke","regression"})
 	public void AzLogin() {
 		clickonaccount();
 		TpEmail();

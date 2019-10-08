@@ -3,14 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testSet.AmazonSignOut">
+      <class name="testSet.AmazonHmPage">
         <methods>
           <include name="setup"/>
           <include name="AzLogin"/>
           <include name="close"/>
-          <include name="SignOut"/>
         </methods>
-      </class> <!-- testSet.AmazonSignOut -->
+      </class> <!-- testSet.AmazonHmPage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
