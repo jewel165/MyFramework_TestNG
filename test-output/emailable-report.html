@@ -9,34 +9,19 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">96,216</td><td>Random, Regression, Smoke</td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">6</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">46,550</td><td>Random, Regression, Smoke</td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testSet.AmazonCartTest</td><td><a href="#m0">AddToCart</a></td><td rowspan="1">1571711903513</td><td rowspan="1">40178</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">testSet.AmazonHmPage</td><td><a href="#m1">AzHomepage</a></td><td rowspan="1">1571711956805</td><td rowspan="1">12</td></tr><tr class="passedeven"><td><a href="#m2">AzLogin</a></td><td rowspan="1">1571711966480</td><td rowspan="1">12229</td></tr><tr class="passedeven"><td><a href="#m3">tittle</a></td><td rowspan="1">1571711989218</td><td rowspan="1">16</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testSet.AmazonCartTest</td><td><a href="#m0">AddToCart</a></td><td rowspan="1">1571714628433</td><td rowspan="1">7743</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="6">testSet.AmazonHmPage</td><td><a href="#m1">AzHomepage</a></td><td rowspan="1">1571714640792</td><td rowspan="1">8</td></tr><tr class="passedeven"><td><a href="#m2">AzLogin</a></td><td rowspan="1">1571714645848</td><td rowspan="1">4978</td></tr><tr class="passedeven"><td><a href="#m3">demo</a></td><td rowspan="1">1571714655607</td><td rowspan="1">1</td></tr><tr class="passedeven"><td><a href="#m4">demo2</a></td><td rowspan="1">1571714660640</td><td rowspan="1">12</td></tr><tr class="passedeven"><td><a href="#m5">demo3</a></td><td rowspan="1">1571714664998</td><td rowspan="1">2</td></tr><tr class="passedeven"><td><a href="#m6">tittle</a></td><td rowspan="1">1571714669531</td><td rowspan="1">15</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">testSet.AmazonCartTest#AddToCart</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#attachSiNoCoverage\-announce&quot;}
-  (Session info: chrome=77.0.3865.120)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
-System info: host: &apos;MDs-MacBook-Air.fios-router.home&apos;, ip: &apos;fe80:0:0:0:18e6:ebc3:179a:9803%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15&apos;, java.version: &apos;1.8.0_221&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: /var/folders/tx/_y6jrbnj0_9...}, goog:chromeOptions: {debuggerAddress: localhost:51842}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 106987ae9736a37e2868c36a2de8a130
-*** Element info: {Using=id, value=attachSiNoCoverage-announce}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
-	at org.openqa.selenium.By$ById.findElement(By.java:188)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at testSet.AmazonCartTest.AddToCart(AmazonCartTest.java:26)
+<h2>Test</h2><h3 id="m0">testSet.AmazonCartTest#AddToCart</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Added to Cart] but found []
+	at testSet.AmazonCartTest.AddToCart(AmazonCartTest.java:30)
 	at java.util.ArrayList.forEach(ArrayList.java:1257)
-... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m1">testSet.AmazonHmPage#AzHomepage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m2">testSet.AmazonHmPage#AzLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">testSet.AmazonHmPage#tittle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">testSet.AmazonHmPage#demo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">testSet.AmazonHmPage#demo2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">testSet.AmazonHmPage#demo3</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">testSet.AmazonHmPage#tittle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

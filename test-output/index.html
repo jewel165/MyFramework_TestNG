@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
+                    <span class="method-stats">7 methods, 1 failed,   6 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -126,6 +126,21 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testSet.AmazonHmPage" hash-for-method="demo">demo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testSet.AmazonHmPage" hash-for-method="demo2">demo2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testSet.AmazonHmPage" hash-for-method="demo3">demo3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testSet.AmazonHmPage" hash-for-method="tittle">tittle</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -152,28 +167,10 @@
                   <a name="AddToCart">
                   </a> <!-- AddToCart -->
                   <span class="method-name">AddToCart</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#attachSiNoCoverage\-announce&quot;}
-  (Session info: chrome=77.0.3865.120)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
-System info: host: &apos;MDs-MacBook-Air.fios-router.home&apos;, ip: &apos;fe80:0:0:0:18e6:ebc3:179a:9803%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15&apos;, java.version: &apos;1.8.0_221&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: /var/folders/tx/_y6jrbnj0_9...}, goog:chromeOptions: {debuggerAddress: localhost:51842}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 106987ae9736a37e2868c36a2de8a130
-*** Element info: {Using=id, value=attachSiNoCoverage-announce}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
-	at org.openqa.selenium.By$ById.findElement(By.java:188)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at testSet.AmazonCartTest.AddToCart(AmazonCartTest.java:26)
+                  <div class="stack-trace">java.lang.AssertionError: expected [Added to Cart] but found []
+	at testSet.AmazonCartTest.AddToCart(AmazonCartTest.java:30)
 	at java.util.ArrayList.forEach(ArrayList.java:1257)
-... Removed 30 stack frames
+... Removed 32 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -197,6 +194,27 @@ Session ID: 106987ae9736a37e2868c36a2de8a130
                   <a name="AzLogin">
                   </a> <!-- AzLogin -->
                   <span class="method-name">AzLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="demo">
+                  </a> <!-- demo -->
+                  <span class="method-name">demo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="demo2">
+                  </a> <!-- demo2 -->
+                  <span class="method-name">demo2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="demo3">
+                  </a> <!-- demo3 -->
+                  <span class="method-name">demo3</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -265,6 +283,18 @@ Session ID: 106987ae9736a37e2868c36a2de8a130
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
+                <span class="method-in-group-name">demo</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">demo2</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">demo3</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
                 <span class="method-in-group-name">tittle</span>
                 <br/>
               </div> <!-- method-in-group -->
@@ -317,28 +347,40 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(7);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'AddToCart')
 data.setCell(0, 2, 'testSet.AmazonCartTest')
-data.setCell(0, 3, 40178);
+data.setCell(0, 3, 7743);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'AzLogin')
 data.setCell(1, 2, 'testSet.AmazonHmPage')
-data.setCell(1, 3, 12229);
+data.setCell(1, 3, 4978);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'tittle')
 data.setCell(2, 2, 'testSet.AmazonHmPage')
-data.setCell(2, 3, 16);
+data.setCell(2, 3, 15);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'AzHomepage')
+data.setCell(3, 1, 'demo2')
 data.setCell(3, 2, 'testSet.AmazonHmPage')
 data.setCell(3, 3, 12);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'AzHomepage')
+data.setCell(4, 2, 'testSet.AmazonHmPage')
+data.setCell(4, 3, 8);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'demo3')
+data.setCell(5, 2, 'testSet.AmazonHmPage')
+data.setCell(5, 3, 2);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'demo')
+data.setCell(6, 2, 'testSet.AmazonHmPage')
+data.setCell(6, 3, 1);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 52 seconds</span>
+              <span class="suite-total-time">Total running time: 12 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -373,50 +415,86 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">AddToCart</span>
-                <span class="method-start">10106 ms</span>
+                <span class="method-start">5139 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">close</span>
-                <span class="method-start">50288 ms</span>
+                <span class="method-start">12886 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testSet.AmazonHmPage</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setupbrowser(chrome)</span>
-                <span class="method-start">51005 ms</span>
+                <span class="method-start">13163 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">AzHomepage</span>
-                <span class="method-start">63398 ms</span>
+                <span class="method-start">17498 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">close</span>
-                <span class="method-start">63411 ms</span>
+                <span class="method-start">17508 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setupbrowser(chrome)</span>
-                <span class="method-start">63790 ms</span>
+                <span class="method-start">17745 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">AzLogin</span>
-                <span class="method-start">73073 ms</span>
+                <span class="method-start">22554 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">close</span>
-                <span class="method-start">85303 ms</span>
+                <span class="method-start">27534 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setupbrowser(chrome)</span>
-                <span class="method-start">85938 ms</span>
+                <span class="method-start">27977 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">tittle</span>
-                <span class="method-start">95811 ms</span>
+                <span class="method-name">demo</span>
+                <span class="method-start">32313 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">close</span>
-                <span class="method-start">95828 ms</span>
+                <span class="method-start">32316 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupbrowser(chrome)</span>
+                <span class="method-start">32536 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">demo2</span>
+                <span class="method-start">37346 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">37361 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupbrowser(chrome)</span>
+                <span class="method-start">37628 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">demo3</span>
+                <span class="method-start">41704 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">41708 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupbrowser(chrome)</span>
+                <span class="method-start">41904 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tittle</span>
+                <span class="method-start">46237 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">46254 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
