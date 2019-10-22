@@ -1,42 +1,49 @@
 package base;
 
-import org.openqa.selenium.WebDriver;
-
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Test;
+import org.testng.annotations.Parameters;
 
 import driverFunctions.Functions;
 
-public class Config extends Functions {
 
-	//public String driverpath ="‎⁨‎⁨‎⁨‎⁨‎⁨Macintosh HD⁩ ▸ ⁨Users⁩ ▸ ⁨jewel⁩ ▸ ⁨eclipse-workspace⁩⁩⁩⁩"; 
-	//public WebDriver driver;
-
-
-	@BeforeMethod
-	public void setup() {
-		//System.setProperty("webdriver.gecko.driver","/Users/jewel/eclipse-workspace/geckodriver");
-		//driver = new FirefoxDriver();
-
-		System.setProperty("webdriver.chrome.driver","/Users/jewel/Downloads/chromedriver");
-		driver = new ChromeDriver();
-		driver.get("http://wwww.amazon.com");
+public class Config extends Functions  {
+	
+	
+	@Parameters("browser")
+	@BeforeMethod(alwaysRun = true)
+	//@Parameters("browser", "chrome")
+		
+public void setupbrowser(String browserName) {
+		
+		if(browserName.equalsIgnoreCase("chrome")) {
+			System.setProperty("webdriver.chrome.driver","/Users/jewel/git/MyFramework004/Drivers/chromedriver");
+			driver = new ChromeDriver();
+		}
+		else if(browserName.equalsIgnoreCase("firefox")){
+			System.setProperty("webdriver.gecko.driver","/Users/jewel/GitHub/TestNG_Framework_FB/Divers/geckodriver");
+			driver = new FirefoxDriver();
+		}
+		
+		//System.setProperty("webdriver.chrome.driver","/Users/jewel/Downloads/chromedriver");
+		//driver = new ChromeDriver();
+		driver.get("http://www.amazon.com");
 		pageload();
 		maxscreen();
 		wttime();
 		DltCookies();
-
+		
 	}	
 
+	
 
 
-
-	@AfterMethod
+	@AfterMethod(alwaysRun = true)
 	public void close() {
 		driver.quit();
 	}
+
 
 }

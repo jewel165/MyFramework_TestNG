@@ -10,5 +10,16 @@
 	<classpathentry kind="lib" path="/Applications/Selenium/selenium-java-3/libs/okhttp-3.11.0.jar"/>
 	<classpathentry kind="lib" path="/Applications/Selenium/selenium-java-3/libs/okio-1.14.0.jar"/>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="/Users/jewel/git/MyFramework004/jars/byte-buddy-1.8.15.jar"/>
+	<classpathentry kind="lib" path="/Users/jewel/git/MyFramework004/jars/client-combined-3.141.59-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/jewel/git/MyFramework004/jars/client-combined-3.141.59.jar"/>
+	<classpathentry kind="lib" path="/Users/jewel/git/MyFramework004/jars/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="/Users/jewel/git/MyFramework004/jars/guava-25.0-jre.jar"/>
+	<classpathentry kind="lib" path="/Users/jewel/git/MyFramework004/jars/okhttp-3.11.0.jar"/>
+	<classpathentry kind="lib" path="/Users/jewel/git/MyFramework004/jars/okio-1.14.0.jar"/>
+	<classpathentry kind="lib" path="/Users/jewel/git/MyFramework004/jars/saxon-8.7.jar"/>
+	<classpathentry kind="lib" path="/Users/jewel/git/MyFramework004/jars/SaxonLiaison.jar"/>
+	<classpathentry kind="lib" path="/Users/jewel/git/MyFramework004/jars/selenium-server.jar"/>
+	<classpathentry kind="lib" path="/Users/jewel/git/MyFramework004/jars/testng-7.0.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -15,7 +15,7 @@ public class AmazonHmPage extends Config {
 	Values vl = new Values();
 	
 
-	@Test
+	@Test(groups = {"Smoke","Regression","Random"})
 	public void AzHomepage() {
 		String url=	driver.getCurrentUrl();
 		System.out.println(url);
@@ -23,14 +23,14 @@ public class AmazonHmPage extends Config {
 
 
 
-	@Test
+	@Test(groups = {"Random"})
 	public void tittle() {
 		String acttittle = 	driver.getTitle();
 		System.out.println(acttittle);
 
 	}
 
-	@Test
+	@Test(groups = {"Smoke","Regression"})
 	public void AzLogin() {
 		clickonaccount();
 		TpEmail();
@@ -44,7 +44,11 @@ public class AmazonHmPage extends Config {
 	}
 
 
-
+	@Test(groups = {"Random"})
+	public void demo() {
+		System.out.println("Hello eberybody");
+		
+	}
 	
 	
 	

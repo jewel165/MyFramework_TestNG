@@ -17,7 +17,7 @@ public class AmazonCartTest extends Config {
 	
 	
 	
-	@Test
+	@Test(groups = {"Smoke","Regression","Random"})
 	public void AddToCart() {
 		driver.findElement(By.xpath(lv.srcbar)).sendKeys(vl02.iph);
 		driver.findElement(By.xpath(lv.searchbutton)).click();
