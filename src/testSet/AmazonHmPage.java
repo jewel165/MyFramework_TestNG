@@ -62,6 +62,11 @@ public class AmazonHmPage extends Config {
 		
 	}
 	
+	@Test(groups = {"Random"})
+	public void demo4() {
+		System.out.println("Hello eberybody");
+		
+	}
 	
 	
 	
