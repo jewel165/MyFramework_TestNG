@@ -25,7 +25,7 @@ public void setupbrowser(String browserName) {
 		}
 		else if(browserName.equalsIgnoreCase("firefox")){
 			//System.setProperty("webdriver.gecko.driver","/Users/jewel/GitHub/TestNG_Framework_FB/Divers/geckodriver");
-			System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"//Drivers//geckodriver.exe");
+			System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"//Drivers//geckodriver");
 
 			
 			driver = new FirefoxDriver();
