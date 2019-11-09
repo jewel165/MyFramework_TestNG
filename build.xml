@@ -82,7 +82,7 @@
 
 	<!-- run -->
 	    <target name="run" depends="compile">
-	        <testng classpath="${test.classpath}:${test.dest}" suitename="talentTEK">	
+	        <testng classpath="${test.classpath}:${test.dest}" suitename="MyFramework">	
 	              	<xmlfileset dir="${ws.home}" includes="testng.xml"/>
 	        	
 	   

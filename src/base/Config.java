@@ -19,7 +19,8 @@ public class Config extends Functions  {
 public void setupbrowser(String browserName) {
 		
 		if(browserName.equalsIgnoreCase("chrome")) {
-			System.setProperty("webdriver.chrome.driver","/Users/jewel/git/MyFramework004/Drivers/chromedriver");
+			//System.setProperty("webdriver.chrome.driver","/Users/jewel/git/MyFramework004/Drivers/chromedriver");
+			System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"//Drivers//chromedriver.exe");
 			driver = new ChromeDriver();
 		}
 		else if(browserName.equalsIgnoreCase("firefox")){
