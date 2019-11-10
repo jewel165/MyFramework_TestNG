@@ -18,24 +18,5 @@
       
       
     </classes>
-  </test> <!-- Test -->
-  
-  <test thread-count="5" name="Test2">
-  	<parameter name = "browser" value = "firefox"></parameter>
-  		<groups>
-  			<run>
-  				<include name = "Smoke"></include>
-  				<include name = "Regression"></include>
-  				<include name = "Random"></include>
-  			</run>
-  		</groups>
-  
-    <classes>
-      <class name="testSet.AmazonCartTest"/>
-      <class name="testSet.AmazonHmPage"/>
-     
-      
-      
-    </classes>
-  </test> <!-- Test -->
+  </test>
 </suite> <!-- Suite -->

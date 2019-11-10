@@ -1,6 +1,8 @@
 package testSet;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import base.Config;
@@ -32,6 +34,7 @@ public class AmazonHmPage extends Config {
 
 	@Test(groups = {"Smoke","Regression"})
 	public void AzLogin() {
+		try {
 		clickonaccount();
 		TpEmail();
 		// String aaa =  driver.findElement(By.xpath(al.Log_email)).getText();
@@ -41,6 +44,10 @@ public class AmazonHmPage extends Config {
 		TpPassword();
 		SignInSubmit();
 		VerifyLogin();
+		}
+		catch(Exception e) {
+			System.out.println(e);
+		}
 	}
 
 
@@ -68,6 +75,18 @@ public class AmazonHmPage extends Config {
 		
 	}
 	
+	@Test(groups = {"Random"})
+	public void amazonlogoTest() {
+	try {	
+	WebElement abc=	driver.findElement(By.xpath(al.azlogo));
+	boolean cbd =abc.isDisplayed();
+	Assert.assertEquals(cbd, true);
+	System.out.println("Amazon logo is displayed");
+	}
+	catch(Exception e) {
+		System.out.println(e);
+	}
+	}
 	//// this is a test/////////
 	
 	

@@ -1,7 +1,8 @@
 package locators;
 
 public class AmazonLoc {
-
+	
+	public String azlogo = "//*[@id=\"nav-logo\"]";
 	//SIgn-in/Sign-out/Account related
 	public String Account= "//*[@id=\"nav-signin-tooltip\"]/a/span";
 	public String Log_email ="//*[@id=\"ap_email\"]";

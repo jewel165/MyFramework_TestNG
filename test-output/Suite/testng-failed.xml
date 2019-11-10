@@ -1,38 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
-  <test thread-count="5" name="Test2(failed)" parallel="tests">
-    <parameter name="browser" value="firefox"/>
-    <groups>
-      <run>
-        <include name="Smoke"/>
-        <include name="Regression"/>
-        <include name="Random"/>
-      </run>
-    </groups>
-    <classes>
-      <class name="testSet.AmazonCartTest">
-        <methods>
-          <include name="AddToCart"/>
-          <include name="setupbrowser"/>
-          <include name="close"/>
-        </methods>
-      </class> <!-- testSet.AmazonCartTest -->
-      <class name="testSet.AmazonHmPage">
-        <methods>
-          <include name="AzLogin"/>
-          <include name="demo3"/>
-          <include name="demo2"/>
-          <include name="tittle"/>
-          <include name="setupbrowser"/>
-          <include name="close"/>
-          <include name="demo"/>
-          <include name="demo4"/>
-          <include name="AzHomepage"/>
-        </methods>
-      </class> <!-- testSet.AmazonHmPage -->
-    </classes>
-  </test> <!-- Test2(failed) -->
   <test thread-count="5" name="Test1(failed)" parallel="tests">
     <parameter name="browser" value="chrome"/>
     <groups>
