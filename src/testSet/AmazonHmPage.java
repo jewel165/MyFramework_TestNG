@@ -84,7 +84,7 @@ public class AmazonHmPage extends Config {
 	System.out.println("Amazon logo is displayed");
 	}
 	catch(Exception e) {
-		System.out.println(e);
+		System.out.println(e.getMessage());
 	}
 	}
 	//// this is a test/////////
