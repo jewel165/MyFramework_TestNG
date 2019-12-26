@@ -21,5 +21,15 @@
 	<classpathentry kind="lib" path="/Users/jewel/git/MyFramework004/jars/SaxonLiaison.jar"/>
 	<classpathentry kind="lib" path="/Users/jewel/git/MyFramework004/jars/selenium-server.jar"/>
 	<classpathentry kind="lib" path="/Users/jewel/git/MyFramework004/jars/testng-7.0.0.jar"/>
+	<classpathentry kind="lib" path="/Users/jewel/Downloads/jar_files-2/bson-3.3.0.jar"/>
+	<classpathentry kind="lib" path="/Users/jewel/Downloads/jar_files-2/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="/Users/jewel/Downloads/jar_files-2/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="/Users/jewel/Downloads/jar_files-2/extentreports-4.0.9.jar"/>
+	<classpathentry kind="lib" path="/Users/jewel/Downloads/jar_files-2/freemarker-2.3.23.jar"/>
+	<classpathentry kind="lib" path="/Users/jewel/Downloads/jar_files-2/gson-2.8.5.jar"/>
+	<classpathentry kind="lib" path="/Users/jewel/Downloads/jar_files-2/httpclient-4.5.2.jar"/>
+	<classpathentry kind="lib" path="/Users/jewel/Downloads/jar_files-2/httpcore-4.4.4.jar"/>
+	<classpathentry kind="lib" path="/Users/jewel/Downloads/jar_files-2/httpmime-4.5.2.jar"/>
+	<classpathentry kind="lib" path="/Users/jewel/Downloads/jar_files-2/mongodb-driver-3.3.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

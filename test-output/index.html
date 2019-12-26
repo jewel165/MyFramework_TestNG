@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-skipped">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,61 +91,61 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">9 methods,   9 passed</span>
+                    <span class="method-stats">9 methods,  9 skipped,  </span>
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
                     </span>
-                    <div class="method-list-content passed suite-Suite">
+                    <div class="method-list-content skipped suite-Suite">
                       <span>
-                        <img width="3%" src="passed.png"/>
+                        <img width="3%" src="skipped.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testSet.AmazonCartTest" hash-for-method="AddToCart">AddToCart</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
+                        <img width="3%" src="skipped.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testSet.AmazonHmPage" hash-for-method="AzHomepage">AzHomepage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
+                        <img width="3%" src="skipped.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testSet.AmazonHmPage" hash-for-method="AzLogin">AzLogin</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
+                        <img width="3%" src="skipped.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testSet.AmazonHmPage" hash-for-method="amazonlogoTest">amazonlogoTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
+                        <img width="3%" src="skipped.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testSet.AmazonHmPage" hash-for-method="demo">demo</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
+                        <img width="3%" src="skipped.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testSet.AmazonHmPage" hash-for-method="demo2">demo2</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
+                        <img width="3%" src="skipped.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testSet.AmazonHmPage" hash-for-method="demo3">demo3</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
+                        <img width="3%" src="skipped.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testSet.AmazonHmPage" hash-for-method="demo4">demo4</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
+                        <img width="3%" src="skipped.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testSet.AmazonHmPage" hash-for-method="tittle">tittle</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Suite -->
+                    </div> <!-- method-list-content skipped suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -157,9 +157,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-passed">
+          <div class="suite-Suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="skipped.png"/>
               <span class="class-name">testSet.AmazonCartTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -168,13 +168,67 @@
                   <a name="AddToCart">
                   </a> <!-- AddToCart -->
                   <span class="method-name">AddToCart</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 77
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
+System info: host: &apos;MDs-MacBook-Air.fios-router.home&apos;, ip: &apos;fe80:0:0:0:142a:bfee:a62f:30ef%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.2&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x00000001048acf09 chromedriver + 3694345
+1   chromedriver                        0x0000000104839fd3 chromedriver + 3223507
+2   chromedriver                        0x00000001045d958f chromedriver + 730511
+3   chromedriver                        0x000000010453f10b chromedriver + 98571
+4   chromedriver                        0x000000010453b22a chromedriver + 82474
+5   chromedriver                        0x0000000104568b71 chromedriver + 269169
+6   chromedriver                        0x0000000104565e83 chromedriver + 257667
+7   chromedriver                        0x000000010454123d chromedriver + 107069
+8   chromedriver                        0x00000001045421d5 chromedriver + 111061
+9   chromedriver                        0x000000010486807f chromedriver + 3412095
+10  chromedriver                        0x0000000104874ced chromedriver + 3464429
+11  chromedriver                        0x0000000104874a78 chromedriver + 3463800
+12  chromedriver                        0x0000000104847959 chromedriver + 3279193
+13  chromedriver                        0x0000000104875548 chromedriver + 3466568
+14  chromedriver                        0x000000010485c1b7 chromedriver + 3363255
+15  chromedriver                        0x0000000104893474 chromedriver + 3589236
+16  chromedriver                        0x00000001048b2ce7 chromedriver + 3718375
+17  libsystem_pthread.dylib             0x00007fff6b7e9e65 _pthread_start + 148
+18  libsystem_pthread.dylib             0x00007fff6b7e583b thread_start + 15
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at base.Config.setupbrowser(Config.java:24)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="skipped.png"/>
               <span class="class-name">testSet.AmazonHmPage</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -183,6 +237,60 @@
                   <a name="AzHomepage">
                   </a> <!-- AzHomepage -->
                   <span class="method-name">AzHomepage</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 77
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
+System info: host: &apos;MDs-MacBook-Air.fios-router.home&apos;, ip: &apos;fe80:0:0:0:142a:bfee:a62f:30ef%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.2&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x00000001101f6f09 chromedriver + 3694345
+1   chromedriver                        0x0000000110183fd3 chromedriver + 3223507
+2   chromedriver                        0x000000010ff2358f chromedriver + 730511
+3   chromedriver                        0x000000010fe8910b chromedriver + 98571
+4   chromedriver                        0x000000010fe8522a chromedriver + 82474
+5   chromedriver                        0x000000010feb2b71 chromedriver + 269169
+6   chromedriver                        0x000000010feafe83 chromedriver + 257667
+7   chromedriver                        0x000000010fe8b23d chromedriver + 107069
+8   chromedriver                        0x000000010fe8c1d5 chromedriver + 111061
+9   chromedriver                        0x00000001101b207f chromedriver + 3412095
+10  chromedriver                        0x00000001101beced chromedriver + 3464429
+11  chromedriver                        0x00000001101bea78 chromedriver + 3463800
+12  chromedriver                        0x0000000110191959 chromedriver + 3279193
+13  chromedriver                        0x00000001101bf548 chromedriver + 3466568
+14  chromedriver                        0x00000001101a61b7 chromedriver + 3363255
+15  chromedriver                        0x00000001101dd474 chromedriver + 3589236
+16  chromedriver                        0x00000001101fcce7 chromedriver + 3718375
+17  libsystem_pthread.dylib             0x00007fff6b7e9e65 _pthread_start + 148
+18  libsystem_pthread.dylib             0x00007fff6b7e583b thread_start + 15
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at base.Config.setupbrowser(Config.java:24)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -190,6 +298,60 @@
                   <a name="AzLogin">
                   </a> <!-- AzLogin -->
                   <span class="method-name">AzLogin</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 77
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
+System info: host: &apos;MDs-MacBook-Air.fios-router.home&apos;, ip: &apos;fe80:0:0:0:142a:bfee:a62f:30ef%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.2&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x00000001101f6f09 chromedriver + 3694345
+1   chromedriver                        0x0000000110183fd3 chromedriver + 3223507
+2   chromedriver                        0x000000010ff2358f chromedriver + 730511
+3   chromedriver                        0x000000010fe8910b chromedriver + 98571
+4   chromedriver                        0x000000010fe8522a chromedriver + 82474
+5   chromedriver                        0x000000010feb2b71 chromedriver + 269169
+6   chromedriver                        0x000000010feafe83 chromedriver + 257667
+7   chromedriver                        0x000000010fe8b23d chromedriver + 107069
+8   chromedriver                        0x000000010fe8c1d5 chromedriver + 111061
+9   chromedriver                        0x00000001101b207f chromedriver + 3412095
+10  chromedriver                        0x00000001101beced chromedriver + 3464429
+11  chromedriver                        0x00000001101bea78 chromedriver + 3463800
+12  chromedriver                        0x0000000110191959 chromedriver + 3279193
+13  chromedriver                        0x00000001101bf548 chromedriver + 3466568
+14  chromedriver                        0x00000001101a61b7 chromedriver + 3363255
+15  chromedriver                        0x00000001101dd474 chromedriver + 3589236
+16  chromedriver                        0x00000001101fcce7 chromedriver + 3718375
+17  libsystem_pthread.dylib             0x00007fff6b7e9e65 _pthread_start + 148
+18  libsystem_pthread.dylib             0x00007fff6b7e583b thread_start + 15
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at base.Config.setupbrowser(Config.java:24)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -197,6 +359,60 @@
                   <a name="amazonlogoTest">
                   </a> <!-- amazonlogoTest -->
                   <span class="method-name">amazonlogoTest</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 77
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
+System info: host: &apos;MDs-MacBook-Air.fios-router.home&apos;, ip: &apos;fe80:0:0:0:142a:bfee:a62f:30ef%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.2&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x00000001101f6f09 chromedriver + 3694345
+1   chromedriver                        0x0000000110183fd3 chromedriver + 3223507
+2   chromedriver                        0x000000010ff2358f chromedriver + 730511
+3   chromedriver                        0x000000010fe8910b chromedriver + 98571
+4   chromedriver                        0x000000010fe8522a chromedriver + 82474
+5   chromedriver                        0x000000010feb2b71 chromedriver + 269169
+6   chromedriver                        0x000000010feafe83 chromedriver + 257667
+7   chromedriver                        0x000000010fe8b23d chromedriver + 107069
+8   chromedriver                        0x000000010fe8c1d5 chromedriver + 111061
+9   chromedriver                        0x00000001101b207f chromedriver + 3412095
+10  chromedriver                        0x00000001101beced chromedriver + 3464429
+11  chromedriver                        0x00000001101bea78 chromedriver + 3463800
+12  chromedriver                        0x0000000110191959 chromedriver + 3279193
+13  chromedriver                        0x00000001101bf548 chromedriver + 3466568
+14  chromedriver                        0x00000001101a61b7 chromedriver + 3363255
+15  chromedriver                        0x00000001101dd474 chromedriver + 3589236
+16  chromedriver                        0x00000001101fcce7 chromedriver + 3718375
+17  libsystem_pthread.dylib             0x00007fff6b7e9e65 _pthread_start + 148
+18  libsystem_pthread.dylib             0x00007fff6b7e583b thread_start + 15
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at base.Config.setupbrowser(Config.java:24)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -204,6 +420,15 @@
                   <a name="demo">
                   </a> <!-- demo -->
                   <span class="method-name">demo</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at base.Config.close(Config.java:49)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -211,6 +436,15 @@
                   <a name="demo2">
                   </a> <!-- demo2 -->
                   <span class="method-name">demo2</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at base.Config.close(Config.java:49)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -218,6 +452,60 @@
                   <a name="demo3">
                   </a> <!-- demo3 -->
                   <span class="method-name">demo3</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 77
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
+System info: host: &apos;MDs-MacBook-Air.fios-router.home&apos;, ip: &apos;fe80:0:0:0:142a:bfee:a62f:30ef%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.2&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x00000001038b2f09 chromedriver + 3694345
+1   chromedriver                        0x000000010383ffd3 chromedriver + 3223507
+2   chromedriver                        0x00000001035df58f chromedriver + 730511
+3   chromedriver                        0x000000010354510b chromedriver + 98571
+4   chromedriver                        0x000000010354122a chromedriver + 82474
+5   chromedriver                        0x000000010356eb71 chromedriver + 269169
+6   chromedriver                        0x000000010356be83 chromedriver + 257667
+7   chromedriver                        0x000000010354723d chromedriver + 107069
+8   chromedriver                        0x00000001035481d5 chromedriver + 111061
+9   chromedriver                        0x000000010386e07f chromedriver + 3412095
+10  chromedriver                        0x000000010387aced chromedriver + 3464429
+11  chromedriver                        0x000000010387aa78 chromedriver + 3463800
+12  chromedriver                        0x000000010384d959 chromedriver + 3279193
+13  chromedriver                        0x000000010387b548 chromedriver + 3466568
+14  chromedriver                        0x00000001038621b7 chromedriver + 3363255
+15  chromedriver                        0x0000000103899474 chromedriver + 3589236
+16  chromedriver                        0x00000001038b8ce7 chromedriver + 3718375
+17  libsystem_pthread.dylib             0x00007fff6b7e9e65 _pthread_start + 148
+18  libsystem_pthread.dylib             0x00007fff6b7e583b thread_start + 15
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at base.Config.setupbrowser(Config.java:24)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -225,6 +513,60 @@
                   <a name="demo4">
                   </a> <!-- demo4 -->
                   <span class="method-name">demo4</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 77
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
+System info: host: &apos;MDs-MacBook-Air.fios-router.home&apos;, ip: &apos;fe80:0:0:0:142a:bfee:a62f:30ef%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.2&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x00000001038b2f09 chromedriver + 3694345
+1   chromedriver                        0x000000010383ffd3 chromedriver + 3223507
+2   chromedriver                        0x00000001035df58f chromedriver + 730511
+3   chromedriver                        0x000000010354510b chromedriver + 98571
+4   chromedriver                        0x000000010354122a chromedriver + 82474
+5   chromedriver                        0x000000010356eb71 chromedriver + 269169
+6   chromedriver                        0x000000010356be83 chromedriver + 257667
+7   chromedriver                        0x000000010354723d chromedriver + 107069
+8   chromedriver                        0x00000001035481d5 chromedriver + 111061
+9   chromedriver                        0x000000010386e07f chromedriver + 3412095
+10  chromedriver                        0x000000010387aced chromedriver + 3464429
+11  chromedriver                        0x000000010387aa78 chromedriver + 3463800
+12  chromedriver                        0x000000010384d959 chromedriver + 3279193
+13  chromedriver                        0x000000010387b548 chromedriver + 3466568
+14  chromedriver                        0x00000001038621b7 chromedriver + 3363255
+15  chromedriver                        0x0000000103899474 chromedriver + 3589236
+16  chromedriver                        0x00000001038b8ce7 chromedriver + 3718375
+17  libsystem_pthread.dylib             0x00007fff6b7e9e65 _pthread_start + 148
+18  libsystem_pthread.dylib             0x00007fff6b7e583b thread_start + 15
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at base.Config.setupbrowser(Config.java:24)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -232,10 +574,64 @@
                   <a name="tittle">
                   </a> <!-- tittle -->
                   <span class="method-name">tittle</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 77
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
+System info: host: &apos;MDs-MacBook-Air.fios-router.home&apos;, ip: &apos;fe80:0:0:0:142a:bfee:a62f:30ef%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.2&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x00000001038b2f09 chromedriver + 3694345
+1   chromedriver                        0x000000010383ffd3 chromedriver + 3223507
+2   chromedriver                        0x00000001035df58f chromedriver + 730511
+3   chromedriver                        0x000000010354510b chromedriver + 98571
+4   chromedriver                        0x000000010354122a chromedriver + 82474
+5   chromedriver                        0x000000010356eb71 chromedriver + 269169
+6   chromedriver                        0x000000010356be83 chromedriver + 257667
+7   chromedriver                        0x000000010354723d chromedriver + 107069
+8   chromedriver                        0x00000001035481d5 chromedriver + 111061
+9   chromedriver                        0x000000010386e07f chromedriver + 3412095
+10  chromedriver                        0x000000010387aced chromedriver + 3464429
+11  chromedriver                        0x000000010387aa78 chromedriver + 3463800
+12  chromedriver                        0x000000010384d959 chromedriver + 3279193
+13  chromedriver                        0x000000010387b548 chromedriver + 3466568
+14  chromedriver                        0x00000001038621b7 chromedriver + 3363255
+15  chromedriver                        0x0000000103899474 chromedriver + 3589236
+16  chromedriver                        0x00000001038b8ce7 chromedriver + 3718375
+17  libsystem_pthread.dylib             0x00007fff6b7e9e65 _pthread_start + 148
+18  libsystem_pthread.dylib             0x00007fff6b7e583b thread_start + 15
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at base.Config.setupbrowser(Config.java:24)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
+          </div> <!-- suite-Suite-class-skipped -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -367,46 +763,46 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(9);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'AzLogin')
-data.setCell(0, 2, 'testSet.AmazonHmPage')
-data.setCell(0, 3, 28686);
+data.setCell(0, 1, 'AddToCart')
+data.setCell(0, 2, 'testSet.AmazonCartTest')
+data.setCell(0, 3, 1);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'AddToCart')
-data.setCell(1, 2, 'testSet.AmazonCartTest')
-data.setCell(1, 3, 28057);
+data.setCell(1, 1, 'amazonlogoTest')
+data.setCell(1, 2, 'testSet.AmazonHmPage')
+data.setCell(1, 3, 0);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'amazonlogoTest')
+data.setCell(2, 1, 'demo4')
 data.setCell(2, 2, 'testSet.AmazonHmPage')
-data.setCell(2, 3, 134);
+data.setCell(2, 3, 0);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'tittle')
+data.setCell(3, 1, 'demo3')
 data.setCell(3, 2, 'testSet.AmazonHmPage')
-data.setCell(3, 3, 23);
+data.setCell(3, 3, 0);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'AzHomepage')
+data.setCell(4, 1, 'tittle')
 data.setCell(4, 2, 'testSet.AmazonHmPage')
-data.setCell(4, 3, 11);
+data.setCell(4, 3, 0);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'demo4')
+data.setCell(5, 1, 'demo2')
 data.setCell(5, 2, 'testSet.AmazonHmPage')
-data.setCell(5, 3, 3);
+data.setCell(5, 3, 0);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'demo3')
+data.setCell(6, 1, 'AzHomepage')
 data.setCell(6, 2, 'testSet.AmazonHmPage')
-data.setCell(6, 3, 2);
+data.setCell(6, 3, 0);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'demo')
 data.setCell(7, 2, 'testSet.AmazonHmPage')
-data.setCell(7, 3, 2);
+data.setCell(7, 3, 0);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'demo2')
+data.setCell(8, 1, 'AzLogin')
 data.setCell(8, 2, 'testSet.AmazonHmPage')
-data.setCell(8, 3, 2);
+data.setCell(8, 3, 0);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 13 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -434,115 +830,151 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">testSet.AmazonCartTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">setupbrowser(chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">AddToCart</span>
-                <span class="method-start">5110 ms</span>
+                <span class="method-start">2504 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">close</span>
-                <span class="method-start">33171 ms</span>
+                <span class="method-start">2514 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testSet.AmazonHmPage</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">setupbrowser(chrome)</span>
-                <span class="method-start">33427 ms</span>
+                <span class="method-start">2521 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">AzHomepage</span>
-                <span class="method-start">37852 ms</span>
+                <span class="method-start">3874 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">close</span>
-                <span class="method-start">37865 ms</span>
+                <span class="method-start">3881 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">setupbrowser(chrome)</span>
-                <span class="method-start">38137 ms</span>
+                <span class="method-start">3884 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">AzLogin</span>
-                <span class="method-start">42789 ms</span>
+                <span class="method-start">5284 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">close</span>
-                <span class="method-start">71478 ms</span>
+                <span class="method-start">5316 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">setupbrowser(chrome)</span>
-                <span class="method-start">71740 ms</span>
+                <span class="method-start">5326 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">amazonlogoTest</span>
-                <span class="method-start">76225 ms</span>
+                <span class="method-start">6604 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">close</span>
-                <span class="method-start">76361 ms</span>
+                <span class="method-start">6612 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">setupbrowser(chrome)</span>
-                <span class="method-start">76607 ms</span>
+                <span class="method-start">6615 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">demo</span>
-                <span class="method-start">80808 ms</span>
+                <span class="method-start">7979 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">close</span>
-                <span class="method-start">80811 ms</span>
+                <span class="method-start">7982 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">setupbrowser(chrome)</span>
-                <span class="method-start">81009 ms</span>
+                <span class="method-start">7987 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">demo2</span>
-                <span class="method-start">85401 ms</span>
+                <span class="method-start">9383 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">close</span>
-                <span class="method-start">85405 ms</span>
+                <span class="method-start">9386 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">setupbrowser(chrome)</span>
-                <span class="method-start">85641 ms</span>
+                <span class="method-start">9390 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">demo3</span>
-                <span class="method-start">90874 ms</span>
+                <span class="method-start">10794 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">close</span>
-                <span class="method-start">90877 ms</span>
+                <span class="method-start">10797 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">setupbrowser(chrome)</span>
-                <span class="method-start">91113 ms</span>
+                <span class="method-start">10821 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">demo4</span>
-                <span class="method-start">95476 ms</span>
+                <span class="method-start">12234 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">close</span>
-                <span class="method-start">95480 ms</span>
+                <span class="method-start">12238 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">setupbrowser(chrome)</span>
-                <span class="method-start">95749 ms</span>
+                <span class="method-start">12243 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">tittle</span>
-                <span class="method-start">100179 ms</span>
+                <span class="method-start">13569 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">close</span>
-                <span class="method-start">100203 ms</span>
+                <span class="method-start">13573 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

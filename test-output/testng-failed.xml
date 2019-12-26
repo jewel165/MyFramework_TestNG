@@ -20,9 +20,16 @@
       </class> <!-- testSet.AmazonCartTest -->
       <class name="testSet.AmazonHmPage">
         <methods>
+          <include name="amazonlogoTest"/>
           <include name="AzLogin"/>
+          <include name="demo3"/>
+          <include name="demo2"/>
+          <include name="tittle"/>
           <include name="setupbrowser"/>
           <include name="close"/>
+          <include name="demo"/>
+          <include name="demo4"/>
+          <include name="AzHomepage"/>
         </methods>
       </class> <!-- testSet.AmazonHmPage -->
     </classes>
